@@ -1,38 +1,49 @@
-Space Marbles
+Unity Official Tutorials
 ====
 
-Made with Unity.
+This is a workthrough of the tutorials hosted by Unity on their official website.
 
-Version 0.1.2
+Version 0.1
 
 To-do list
 ==========
 
-&#x2611; Player
+&#x2611; Start project
 
-- &#x2611; Player movement
-	
-- &#x2611; Shooting
-	
-- &#x2611; Movement restriction
-	
-- &#x2611; Ball collision
-	
-&#x2611; Levels
+&#9744; Start tutorials
 
-- &#x2611; Menu
-	
-- &#x2611; Game
-	
-- &#x2611; Many levels
+- &#x2611; 2D
 
-&#9744; Extras
+- &#x2611; Animation
 
-- &#x2611; Publish web player
+- &#x2611; Architecture
 
-- &#x2611; Settings
+- &#x2611; Asset Store
 
-- &#9744; High scores
+- &#x2611; Audio
+
+- &#x2611; Editor
+ 
+- &#x2611; Graphics
+ 
+- &#x2611; Live Training Archive
+
+- &#x2611; Marketing and PR
+
+- &#x2611; Navigation
+ 
+- &#x2611; Physics
+
+- &#x2611; Platform Specific
+ 
+- &#x2611; Scripting
+
+- - &#x2611; Beginning
+
+- - &#x2611; Intermediate
+
+- &#x2611; UI
+ 
 
 
 
