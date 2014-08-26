@@ -12,37 +12,67 @@ To-do list
 
 &#9744; Start tutorials
 
-- &#x2611; 2D
+- &#9744; 2D()
 
-- &#x2611; Animation
+- - &#9744; Beginner(10)
 
-- &#x2611; Architecture
+- - &#9744; Assignments(1)
 
-- &#x2611; Asset Store
+- &#9744; Animation(11)
 
-- &#x2611; Audio
+- &#9744; Architecture(1)
 
-- &#x2611; Editor
+- &#9744; Asset Store(2)
+
+- &#9744; Audio(1)
+
+- &#9744; Editor()
+
+- - &#9744; Beginner(8)
+
+- - &#9744; Intermediate(4)
  
-- &#x2611; Graphics
+- &#9744; Graphics()
+
+- - &#9744; Beginner(8)
+
+- - &#9744; Intermediate(1)
+
+- - &#9744; Assignments(1)
  
-- &#x2611; Live Training Archive
+- &#9744; Live Training Archive()
 
-- &#x2611; Marketing and PR
+- - &#9744; Beginner(34)
 
-- &#x2611; Navigation
+- - &#9744; Intermediate(4)
+
+- &#9744; Marketing and PR(2)
+
+- &#9744; Navigation(5)
  
-- &#x2611; Physics
+- &#9744; Physics(12)
 
-- &#x2611; Platform Specific
+- - &#9744; Beginner(9)
+
+- - &#9744; Intermediate(1)
+
+- - &#9744; Assignments(2)
+
+- &#9744; Platform Specific(4)
+
+- - &#9744; Beginner(3)
+
+- - &#9744; Assignments(1)
  
-- &#x2611; Scripting
+- &#9744; Scripting(49)
 
-- - &#x2611; Beginning
+- - &#9744; Beginner(28)
 
-- - &#x2611; Intermediate
+- - &#9744; Intermediate(19)
 
-- &#x2611; UI
+- - &#9744; Assignments(2)
+
+- &#9744; UI(12)
  
 
 
