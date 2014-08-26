@@ -12,7 +12,7 @@ To-do list
 
 &#9744; Start tutorials
 
-- &#9744; 2D()
+- &#9744; 2D(14)
 
 - - &#9744; Beginner(10)
 
@@ -26,13 +26,13 @@ To-do list
 
 - &#9744; Audio(1)
 
-- &#9744; Editor()
+- &#9744; Editor(15)
 
 - - &#9744; Beginner(8)
 
 - - &#9744; Intermediate(4)
  
-- &#9744; Graphics()
+- &#9744; Graphics(10)
 
 - - &#9744; Beginner(8)
 
@@ -40,7 +40,7 @@ To-do list
 
 - - &#9744; Assignments(1)
  
-- &#9744; Live Training Archive()
+- &#9744; Live Training Archive(38)
 
 - - &#9744; Beginner(34)
 
