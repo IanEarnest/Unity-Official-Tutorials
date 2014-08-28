@@ -3,8 +3,6 @@ Unity Official Tutorials
 
 This is a workthrough of the tutorials hosted by Unity on their official website.
 
-Version 0.1
-
 To-do list
 ==========
 
