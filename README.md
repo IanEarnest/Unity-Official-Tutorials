@@ -1,7 +1,16 @@
 Unity Official Tutorials
 ====
 
+Introduction
+-----------
+
 This is a workthrough of the tutorials hosted by Unity on their official website.
+
+
+Purpose
+-------
+
+Go through and complete each Unity tutorial.
 
 To-do list
 ==========
