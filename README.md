@@ -17,11 +17,11 @@ To-do list
 
 &#x2611; Start project
 
-&#9744; Start tutorials
+&#x2611; Start tutorials
 
-- &#9744; 2D(14)
+- &#x2611; 2D(12/14)
 
-- - &#9744; Beginner(10)
+- - &#9744; Beginner(13)
 
 - - &#9744; Assignments(1)
 
