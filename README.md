@@ -19,11 +19,11 @@ To-do list
 
 &#x2611; Start tutorials
 
-- &#x2611; 2D(12/14)
+- &#x2611; 2D(14/14)
 
-- - &#9744; Beginner(13)
+- - &#x2611; Beginner(13)
 
-- - &#9744; Assignments(1)
+- - &#x2611; Assignments(1)
 
 - &#9744; Animation(11)
 
