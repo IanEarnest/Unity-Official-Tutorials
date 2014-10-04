@@ -25,7 +25,7 @@ To-do list
 
 - - &#x2611; Assignments(1)
 
-- &#9744; Animation(9/11)
+- &#9744; Animation(10/11)
 
 - &#9744; Architecture(1)
 
