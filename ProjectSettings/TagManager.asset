@@ -3,15 +3,10 @@
 --- !u!78 &1
 TagManager:
   tags:
-  - ground
-  - Crate
-  - Enemy
-  - Wall
-  - Obstacle
-  - Bullet
-  - BombPickup
-  - ExplosionFX
-  - HealthBar
+  - Item
+  - Dangerous
+  - Smelly
+  - Fire
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -21,11 +16,11 @@ TagManager:
   Builtin Layer 5: 
   Builtin Layer 6: 
   Builtin Layer 7: 
-  User Layer 8: Bombs
-  User Layer 9: Player
-  User Layer 10: Enemies
-  User Layer 11: Pickups
-  User Layer 12: Ground
+  User Layer 8: Vehicles
+  User Layer 9: Characters
+  User Layer 10: Floor
+  User Layer 11: 
+  User Layer 12: 
   User Layer 13: 
   User Layer 14: 
   User Layer 15: 
@@ -50,23 +45,19 @@ TagManager:
     userID: 0
     uniqueID: 0
     locked: 0
-  - name: Default
-    userID: 1
-    uniqueID: 3363470833
-    locked: 0
   - name: Background
-    userID: 2
-    uniqueID: 1535931219
-    locked: 0
-  - name: Character
-    userID: 4
-    uniqueID: 2511236001
+    userID: 1
+    uniqueID: 1093696345
     locked: 0
   - name: Foreground
+    userID: 2
+    uniqueID: 1859086223
+    locked: 0
+  - name: Characters
     userID: 3
-    uniqueID: 1024582385
+    uniqueID: 3940858523
     locked: 0
   - name: UI
-    userID: 5
-    uniqueID: 149272721
+    userID: 4
+    uniqueID: 771169021
     locked: 0
