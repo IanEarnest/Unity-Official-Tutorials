@@ -19,13 +19,17 @@ To-do list
 
 &#x2611; Start tutorials
 
+&#x2611; Add in player models from asset store
+
+&#x2611; Add in standard assets
+
 - &#x2611; 2D(14/14)
 
 - - &#x2611; Beginner(13)
 
 - - &#x2611; Assignments(1)
 
-- &#9744; Animation(10/11)
+- &#x2611; Animation(11/11)
 
 - &#9744; Architecture(1)
 
