@@ -113,10 +113,12 @@ public class AnimationScript2 : MonoBehaviour {
 		}
 		// Player run
 		if(Input.GetKey(KeyCode.LeftShift)){
-			playerAnim.SetBool("isSprintHeld", true);			
+			playerAnim.SetBool("isSprintHeld", true);
+			forwardSpeed = 4.5f;
 		}
 		else {
 			playerAnim.SetBool("isSprintHeld", false);
+			forwardSpeed = 1.5f;
 		}
 
 		
@@ -149,9 +151,9 @@ public class AnimationScript2 : MonoBehaviour {
 			if(dieing == true){
 				enemy.animation.Stop();
 				enemy.collider.enabled = false;
-				//Destroy(enemyArmature);
 				enemy.animation.enabled = false;
 				enemyAnim.enabled = false;
+				Destroy(enemy);
 			}
 		}
 	}

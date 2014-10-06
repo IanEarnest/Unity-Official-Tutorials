@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class enemyCollide : MonoBehaviour {
+public class EnemyCollide : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) {
 		if(other.gameObject.name == "CHARACTER FOOT"){

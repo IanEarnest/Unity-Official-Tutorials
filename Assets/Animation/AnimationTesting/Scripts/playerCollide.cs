@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class playerCollide : MonoBehaviour {
+public class PlayerCollide : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) {
 		if(other.gameObject.name == "ENEMY LEFT HAND" || 
