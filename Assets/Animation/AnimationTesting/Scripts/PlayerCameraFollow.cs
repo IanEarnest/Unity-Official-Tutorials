@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CharacterCameraFollow : MonoBehaviour {
+public class PlayerCameraFollow : MonoBehaviour {
 
 	public GameObject player;
 	
@@ -9,7 +9,7 @@ public class CharacterCameraFollow : MonoBehaviour {
 	void Update () {
 		Vector3 playerPosition = player.transform.position;
 		//playerPosition.x = 0;
-		playerPosition.y = 0.79f;
+		playerPosition.y = 2.20f;
 		playerPosition.z -= 2;
 
 		transform.position = playerPosition;
