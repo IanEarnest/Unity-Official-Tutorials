@@ -229,7 +229,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 9801176}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9a1514302e1168499c513a992982a57, type: 3}
+  m_Script: {fileID: 11500000, guid: 8247ce9c6d22e894c8e20db85d83a2d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &9801185
@@ -17810,7 +17810,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1157841308}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55883950dea85a54bb6a3fd04609aa21, type: 3}
+  m_Script: {fileID: 11500000, guid: a9645827ca5a71544998336b37ebfd60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemyArmature: {fileID: 0}
@@ -21747,7 +21747,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1391905129}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55883950dea85a54bb6a3fd04609aa21, type: 3}
+  m_Script: {fileID: 11500000, guid: a9645827ca5a71544998336b37ebfd60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemyArmature: {fileID: 0}
@@ -23724,7 +23724,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1504844956}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55883950dea85a54bb6a3fd04609aa21, type: 3}
+  m_Script: {fileID: 11500000, guid: a9645827ca5a71544998336b37ebfd60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemyArmature: {fileID: 0}
