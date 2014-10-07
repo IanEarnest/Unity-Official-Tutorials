@@ -26,7 +26,7 @@ public class Player_Unitychan : MonoBehaviour {
 		// Stamina regen
 		idleAnimTime++;
 		if(playerStamina < 100){
-			playerStamina++;
+			//playerStamina++;
 		}
 		else{
 			playerAnim.SetInteger("Stamina", 100);
@@ -47,7 +47,8 @@ public class Player_Unitychan : MonoBehaviour {
 		}
 		
 		
-		
+		// Disable foot collider
+		GameObject.Find ("CHARACTER FOOT").GetComponent<BoxCollider>().enabled = false;
 		
 		// Player jump
 		if(Input.GetButton("Jump")){
@@ -65,6 +66,7 @@ public class Player_Unitychan : MonoBehaviour {
 		// Player attack
 		if(Input.GetButton("Fire1")){
 			playerAnim.SetBool("isAttacking", true);
+			GameObject.Find ("CHARACTER FOOT").GetComponent<BoxCollider>().enabled = true;
 		}
 		if(Input.GetButtonDown("Fire1")){
 			playerStamina -= 50;
@@ -72,6 +74,7 @@ public class Player_Unitychan : MonoBehaviour {
 		}
 		if(Input.GetButtonUp("Fire1")) {
 			playerAnim.SetBool("isAttacking", false);
+
 		}
 		// Player run
 		if(Input.GetKey(KeyCode.LeftShift)){
