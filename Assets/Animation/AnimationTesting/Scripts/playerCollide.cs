@@ -6,7 +6,7 @@ public class PlayerCollide : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 		if(other.gameObject.name == "ENEMY LEFT HAND" || 
 		   other.gameObject.name == "ENEMY RIGHT HAND"){
-			Player_Unitychan.isPlayerHit = true;
+			AnimationScript2.isHit = true;
 		}
 		if(other.gameObject.name == "tyrant_zombie"){
 			//AnimationScript2.enemyHit = true;
