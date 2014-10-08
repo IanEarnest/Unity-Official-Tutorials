@@ -45,8 +45,21 @@ public class Player_Unitychan : MonoBehaviour {
 		else{
 			playerAnim.SetBool("isDamaged", false);
 		}
-		
-		
+
+
+
+		// Checking animation playing
+		int playerAnimHash = playerAnim.GetCurrentAnimatorStateInfo (0).nameHash;
+		int attackHash = Animator.StringToHash ("Base Layer.Attack");
+		int idleHash = Animator.StringToHash ("Base Layer.Idle");
+		if(playerAnimHash == attackHash){
+			print ("Player is attacking");
+		}
+		if(playerAnimHash == idleHash){
+			print ("Player is idle");
+		}
+
+
 		// Disable foot collider
 		GameObject.Find ("CHARACTER FOOT").GetComponent<BoxCollider>().enabled = false;
 		
