@@ -15,7 +15,7 @@ public class EnemyFollow : MonoBehaviour {
 	void Update () {
 		// Check distance to player
 		float distance = Vector3.Distance(transform.position, player.transform.position);
-		print ("distance: " + distance);
+		//print ("distance: " + distance);
 
 		// close enough to attack
 		// Attack when in range of player
