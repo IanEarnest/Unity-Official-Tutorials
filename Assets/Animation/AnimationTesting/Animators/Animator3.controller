@@ -157,7 +157,7 @@ Transition:
   m_Conditions:
   - m_ConditionMode: 6
     m_ConditionEvent: Stamina
-    m_EventTreshold: 100
+    m_EventTreshold: 1000
     m_ExitTime: .935344815
   m_Atomic: 1
   m_Solo: 0
@@ -243,6 +243,26 @@ Transition:
   m_Solo: 0
   m_Mute: 0
   m_CanTransitionToSelf: 0
+--- !u!1101 &110116705
+Transition:
+  serializedVersion: 2
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Stamina low
+  m_SrcState: {fileID: 110293338}
+  m_DstState: {fileID: 110284919}
+  m_TransitionDuration: .3125
+  m_TransitionOffset: 0
+  m_Conditions:
+  - m_ConditionMode: 4
+    m_ConditionEvent: Stamina
+    m_EventTreshold: 0
+    m_ExitTime: .6875
+  m_Atomic: 1
+  m_Solo: 0
+  m_Mute: 0
+  m_CanTransitionToSelf: 0
 --- !u!1101 &110118930
 Transition:
   serializedVersion: 2
@@ -291,6 +311,26 @@ Transition:
   m_Solo: 0
   m_Mute: 0
   m_CanTransitionToSelf: 0
+--- !u!1101 &110123586
+Transition:
+  serializedVersion: 2
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sprint let go
+  m_SrcState: {fileID: 110293338}
+  m_DstState: {fileID: 110284919}
+  m_TransitionDuration: .3125
+  m_TransitionOffset: 0
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: isSprintHeld
+    m_EventTreshold: 0
+    m_ExitTime: .6875
+  m_Atomic: 1
+  m_Solo: 0
+  m_Mute: 0
+  m_CanTransitionToSelf: 0
 --- !u!1101 &110125681
 Transition:
   serializedVersion: 2
@@ -305,6 +345,10 @@ Transition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: isAttacking
+    m_EventTreshold: 0
+    m_ExitTime: .913793087
+  - m_ConditionMode: 3
+    m_ConditionEvent: Stamina
     m_EventTreshold: 0
     m_ExitTime: .913793087
   m_Atomic: 1
@@ -347,6 +391,26 @@ Transition:
     m_ConditionEvent: IdleTime
     m_EventTreshold: 600
     m_ExitTime: .962121189
+  m_Atomic: 1
+  m_Solo: 0
+  m_Mute: 0
+  m_CanTransitionToSelf: 0
+--- !u!1101 &110140036
+Transition:
+  serializedVersion: 2
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_SrcState: {fileID: 110284919}
+  m_DstState: {fileID: 110217390}
+  m_TransitionDuration: .192307681
+  m_TransitionOffset: 0
+  m_Conditions:
+  - m_ConditionMode: 4
+    m_ConditionEvent: Stamina
+    m_EventTreshold: 0
+    m_ExitTime: .807692289
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
@@ -451,26 +515,6 @@ Transition:
     m_ConditionEvent: Speed
     m_EventTreshold: -.100000001
     m_ExitTime: .944029868
-  m_Atomic: 1
-  m_Solo: 0
-  m_Mute: 0
-  m_CanTransitionToSelf: 0
---- !u!1101 &110148777
-Transition:
-  serializedVersion: 2
-  m_ObjectHideFlags: 3
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Run let go
-  m_SrcState: {fileID: 110293338}
-  m_DstState: {fileID: 110200000}
-  m_TransitionDuration: .3125
-  m_TransitionOffset: 0
-  m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: isSprintHeld
-    m_EventTreshold: 0
-    m_ExitTime: .6875
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
@@ -619,6 +663,10 @@ Transition:
     m_ConditionEvent: isSprintHeld
     m_EventTreshold: 0
     m_ExitTime: .807692289
+  - m_ConditionMode: 3
+    m_ConditionEvent: Stamina
+    m_EventTreshold: 0
+    m_ExitTime: .807692289
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
@@ -689,7 +737,7 @@ Transition:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: 
+  m_Name: Hop
   m_SrcState: {fileID: 110293338}
   m_DstState: {fileID: 110239721}
   m_TransitionDuration: .3125
@@ -982,7 +1030,7 @@ State:
   m_Motions:
   - {fileID: 7400000, guid: 305c690d357d63d428b3a5521ec0e645, type: 2}
   m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: 84, y: 156, z: 0}
+  m_Position: {x: 996, y: 120, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -1717,9 +1765,10 @@ StateMachine:
     data:
       first: {fileID: 110293338}
       second:
-      - {fileID: 110148777}
       - {fileID: 110171208}
       - {fileID: 110174592}
+      - {fileID: 110123586}
+      - {fileID: 110116705}
     data:
       first: {fileID: 110217390}
       second:
@@ -1785,6 +1834,7 @@ StateMachine:
       second:
       - {fileID: 110195336}
       - {fileID: 110162369}
+      - {fileID: 110140036}
     data:
       first: {fileID: 110232452}
       second:
@@ -1797,7 +1847,7 @@ StateMachine:
       second:
       - {fileID: 110162291}
   m_MotionSetCount: 1
-  m_AnyStatePosition: {x: 804, y: 216, z: 0}
+  m_AnyStatePosition: {x: 492, y: 288, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
 --- !u!1107 &110760401
 StateMachine:
