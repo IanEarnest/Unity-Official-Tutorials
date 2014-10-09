@@ -27,6 +27,7 @@ public class Player_Unitychan : MonoBehaviour {
 	int damaged1Hash = Animator.StringToHash ("Base Layer.Damaged1");
 	int damaged2Hash = Animator.StringToHash ("Base Layer.Damaged2");
 	int exaustHash = Animator.StringToHash ("Base Layer.Exaust");
+	int hopHash = Animator.StringToHash ("Base Layer.Hop");
 
 
 	// Use this for initialization
@@ -148,6 +149,8 @@ public class Player_Unitychan : MonoBehaviour {
 			forwardSpeed = 1.5f;
 
 		// Run and jump speed??
+		if(playerAnimHash == hopHash)
+			forwardSpeed = 4.5f;
 	}
 
 
