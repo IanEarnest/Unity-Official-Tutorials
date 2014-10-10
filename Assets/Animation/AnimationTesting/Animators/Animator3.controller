@@ -56,22 +56,10 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: Health
-    m_Type: 3
-    m_DefaultFloat: 0
-    m_DefaultInt: 100
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
   - m_Name: IdleTime
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: Stamina
-    m_Type: 3
-    m_DefaultFloat: 0
-    m_DefaultInt: 100
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   - m_Name: isSprintHeld
@@ -124,6 +112,18 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
   - m_Name: hasLost
     m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: Health
+    m_Type: 1
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: Stamina
+    m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
@@ -203,9 +203,9 @@ Transition:
   m_TransitionDuration: .0646551698
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 6
+  - m_ConditionMode: 3
     m_ConditionEvent: Stamina
-    m_EventTreshold: 1000
+    m_EventTreshold: 999
     m_ExitTime: .935344815
   m_Atomic: 1
   m_Solo: 0

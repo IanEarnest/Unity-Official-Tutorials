@@ -7,7 +7,7 @@ public class Player_Unitychan : MonoBehaviour {
 	public static Animator playerAnim;
 	public static float playerHealth = 1000;
 	public static float playerStamina = 1000;
-	float staminaRegen = 0.5f;
+	float staminaRegen = 0.2f;
 	public static bool isPlayerHit;
 	float forwardSpeed = 1.5f;
 	float backwardSpeed = 1.0f;
@@ -157,10 +157,10 @@ public class Player_Unitychan : MonoBehaviour {
 		
 		// Player walking and running animations
 		// Slide
-		if(Input.GetButtonDown("Fire1"))		playerAnim.SetBool("isSlidePressed", true);
+		if(Input.GetButton("Fire1"))		playerAnim.SetBool("isSlidePressed", true);
 		else						playerAnim.SetBool("isSlidePressed", false);
 		// Run hand
-		if(Input.GetButtonDown("Fire1"))		playerAnim.SetBool("isRunHandPressed", true);
+		if(Input.GetButton("Fire2"))		playerAnim.SetBool("isRunHandPressed", true);
 		else						playerAnim.SetBool("isRunHandPressed", false);
 
 		// Walk left
