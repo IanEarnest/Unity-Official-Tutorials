@@ -91,18 +91,13 @@ public class Player_Unitychan : MonoBehaviour {
 		}
 		if(playerAnimHash == idleHash){
 			//print ("Player is idle");
-			//canAttack = true;
 			canMove = true;
 			playerAnim.SetBool("isAttacking", false);
 			// Disable foot collider
 			GameObject.Find ("CHARACTER FOOT").GetComponent<BoxCollider>().enabled = false;
 		}
-		if(playerAnimHash == damaged1Hash){
-			//print ("Player is attacking");
-			canMove = false;
-        }
-		if(playerAnimHash == damaged2Hash){
-			//print ("Player is attacking");
+		if(playerAnimHash == damaged1Hash ||
+		   playerAnimHash == damaged2Hash){
 			canMove = false;
         }
 
@@ -144,16 +139,6 @@ public class Player_Unitychan : MonoBehaviour {
 		else    
 			playerAnim.SetBool("isSprintHeld", false);
 
-		/*
-		isSlidePressed
-		Slide
-
-		isRunLeft	Run2
-		isRunRight	Run3
-		isLookLeft	Walk3
-		isLookRight	Walk4
-		isRunHandPressed RunHand
-		*/
 		
 		// Player walking and running animations
 		// Slide
@@ -216,6 +201,7 @@ public class Player_Unitychan : MonoBehaviour {
 
 
 	void FixedUpdate(){
+		// Player movement
 		horizontal = Input.GetAxis("Horizontal");
 		vertical = Input.GetAxis("Vertical");
 		playerAnim.SetFloat("Speed", vertical);
@@ -223,12 +209,15 @@ public class Player_Unitychan : MonoBehaviour {
 		//print (h + "," + v);
 		Vector3 velocity = new Vector3(0, 0, vertical);
 		velocity = transform.TransformDirection(velocity);
-		
+
+		// Player speed
 		if (vertical > 0.1) {
 			velocity *= forwardSpeed;
 		} else if (vertical < -0.1) {
 			velocity *= backwardSpeed;
 		}
+
+		// player movement restrictions
 		if(canMove){
 			transform.localPosition += velocity * Time.fixedDeltaTime;
 			transform.Rotate(0, horizontal * rotateSpeed, 0);
