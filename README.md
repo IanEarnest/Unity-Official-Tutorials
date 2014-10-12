@@ -31,7 +31,7 @@ To-do list
 
 - &#x2611; Animation(11/11)
 
-- &#9744; Architecture(1)
+- &#9744; Architecture(1/1)
 
 - &#9744; Asset Store(2)
 
