@@ -33,7 +33,7 @@ To-do list
 
 - &#x2611; Architecture(1/1)
 
-- &#9744; Asset Store(1/2)
+- &#9744; Asset Store(2/2)
 
 - &#9744; Audio(0/1)
 
