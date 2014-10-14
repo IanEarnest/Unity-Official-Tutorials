@@ -37,9 +37,9 @@ To-do list
 
 - &#9744; Audio(1/1)
 
-- &#9744; Editor(0/16)
+- &#9744; Editor(4/16)
 
-- - &#9744; Beginner(0/10)
+- - &#9744; Beginner(4/10)
 
 - - &#9744; Intermediate(0/6)
  
