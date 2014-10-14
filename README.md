@@ -35,13 +35,13 @@ To-do list
 
 - &#x2611; Asset Store(2/2)
 
-- &#9744; Audio(0/1)
+- &#9744; Audio(1/1)
 
-- &#9744; Editor(0/15)
+- &#9744; Editor(0/16)
 
-- - &#9744; Beginner(0/8)
+- - &#9744; Beginner(0/10)
 
-- - &#9744; Intermediate(0/4)
+- - &#9744; Intermediate(0/6)
  
 - &#9744; Graphics(0/10)
 
@@ -51,9 +51,9 @@ To-do list
 
 - - &#9744; Assignments(0/1)
  
-- &#9744; Live Training Archive(0/38)
+- &#9744; Live Training Archive(0/41)
 
-- - &#9744; Beginner(0/34)
+- - &#9744; Beginner(0/37)
 
 - - &#9744; Intermediate(0/4)
 
@@ -75,9 +75,9 @@ To-do list
 
 - - &#9744; Assignments(0/1)
  
-- &#9744; Scripting(0/49)
+- &#9744; Scripting(0/50)
 
-- - &#9744; Beginner(0/28)
+- - &#9744; Beginner(0/29)
 
 - - &#9744; Intermediate(0/19)
 
