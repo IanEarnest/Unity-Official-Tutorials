@@ -35,7 +35,7 @@ To-do list
 
 - &#x2611; Asset Store(2/2)
 
-- &#9744; Audio(1/1)
+- &#x2611; Audio(1/1)
 
 - &#9744; Editor(4/16)
 
